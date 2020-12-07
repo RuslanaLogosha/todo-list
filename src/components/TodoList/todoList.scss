@@ -49,8 +49,8 @@
 
 .TodoList__checkbox {
   cursor: pointer;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 }
 
 .TodoList__btn {
@@ -71,4 +71,8 @@
   &:active {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
+}
+
+.TodoList__iconBtn {
+  margin-left: auto;
 }
